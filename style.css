@@ -1,0 +1,263 @@
+body {
+    background-color: #a8a9af;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 1050px 45px ;
+}
+
+.box {
+    height: 100%;
+    justify-content: center;
+    padding: 7rem 6rem 6rem 4rem;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.logo img {  
+    height: 180px;
+    width: fit-content;
+    object-fit: fill;  
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 22pt;
+    margin: auto;
+    font-weight: bold;
+}
+
+.title-es {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17pt;
+}
+
+.main-text {
+    padding: 50px 50px 20px 50px;
+}
+
+.main-ptbr {
+    margin: auto;
+}
+
+.main-es {
+    padding: 10px;
+    font-style: italic;
+    margin: auto;
+}
+
+.texto-base {   
+    text-align: center;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18pt ;
+}
+
+.main-ptbr {
+    text-transform: uppercase ;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+    display: block;
+    margin-top: 0em;
+    color: #ffffff;
+}
+
+.email {
+    text-align: center;
+    background-color: #0d4734  ;
+    padding: 25px 260px;
+    margin: 0 0 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+input[type="checkbox" i]  {
+
+    position: relative;
+    transform: scale(1.50) ;
+    right: 346px;
+    top: 0px;
+    background-color: #a9a8ac;
+    cursor: pointer;
+    border: dotted;
+    box-sizing: border-box;
+    margin: 6px 6px 6px 6px;
+}
+
+input::placeholder {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+
+.enviar {
+    padding: 25px 325px;
+    margin: 10px 0 10px;
+    border: none;
+    background-color: #eb7743;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sub-text {
+    padding: 5px 5px 5px 10px;
+}
+
+.sub-es {
+    position: relative;
+    margin: auto; 
+    left: 10px;
+    bottom: 25px;
+    font-family:  Helvetica;
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.sub-ptbr {
+    position: relative;
+    margin: auto;
+    left: 10px;
+    bottom: 28px;
+    font-family:  Helvetica;
+    font-size: 11pt;
+}
+
+.background {
+    position: relative;
+    bottom: 4;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        display: flex;
+    }
+
+    body {
+        background-color: #a8a9af;
+        background-image: url(bg.png);
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: 268px 520px;
+    }
+
+    .box {
+        height: 100%;
+        justify-content: center;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo img {
+        height: 100px;
+        width: fit-content;
+        object-fit: fill;
+        margin: 30px 1px 0px 0px;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 18pt;
+        margin: auto;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .title-es {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 14pt;
+    }
+    
+    .main-text {
+        padding: 30px 20px 10px 20px;
+    }    
+
+    .main-ptbr {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 16pt;
+    }
+
+    .main-es {
+        padding: 10px;
+        font-style: italic;
+        margin: auto;
+        font-size: 12pt;
+    }
+
+    .email {
+        text-align: center;
+        background-color: #0d4734;
+        padding: 5px 40px;
+        margin: 0 0 10px;
+        border: none;
+        color: #ffffff;
+        font-size: 18pt;
+    }
+    .enviar {
+        position: relative;
+        bottom: 85px;
+        padding: 10px 160px;
+        margin: 10px 0 10px;
+        border: none;
+        background-color: #eb7743;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    input[type="checkbox" i] {
+        position: relative;
+        transform: scale(1.20);
+        right: 180px;
+        top: 72px;
+        background-color: #a9a8ac;
+        cursor: pointer;
+        border: dotted;
+        box-sizing: border-box;
+        margin: 6px 6px 6px 6px;
+    }
+
+    .sub-ptbr {
+        position: relative;
+        margin: auto;
+        left: 25px;
+        top: 45px;
+        font-family: Helvetica;
+        font-size: 9pt;
+        text-align: left;
+    }
+
+    .sub-es {
+        position: relative;
+        margin: auto;
+        left: 25px;
+        top: 50px;
+        font-family: Helvetica;
+        font-size: 9pt;
+        font-style: italic;
+        text-align: left;
+    }
+    
+  }
